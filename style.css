@@ -1,0 +1,87 @@
+body{
+    background: #F7C873;
+}
+
+header{
+    background: #434343;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #FAEBCD;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+}
+
+input[type=number]{
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+button[type=button]{
+    color: #F8F8F8;
+    background-color: #434343;
+    width: 20%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.persegi{
+    color:#F8F8F8;
+    padding: 5px 5px;
+    border: solid#434343;
+    border-radius: 30px;
+    background-color: #434343;
+}
+
+.persegi-panjang{
+    color:#F8F8F8;
+    padding: 5px 5px;
+    border: solid#434343;
+    border-radius: 30px;
+    background-color: #434343;
+}
+
+.figure{
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: #F8F8F8;
+    border-radius: 30px;
+}
+
+.formula-desciption{
+    text-align: left;
+}
+
+span.title{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+
+span.subtitle{
+    color: #F7C873;
+    font-size: medium;
+}
+
+.example-square{
+    border: 5px solid red;
+    height: 100px;
+    width: 100px;
+}
